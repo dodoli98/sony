@@ -1,0 +1,31 @@
+.navBar {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo > a{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo > a > img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navBar > ul {
+    display: flex;
+
+}
+
+.navBar > ul > li:not(:last-child){
+    margin-right: 1em;
+}
