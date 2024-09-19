@@ -52,11 +52,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
 .productSection>h2 {
-    font-family: "Inria Serif";
+    font-family: "Abhaya Libre";
     font-size: 2.3rem;
     padding: 3em;
     box-sizing: border-box;
@@ -71,6 +72,49 @@
 
 }
 
+.productSection > button{
+    
+    
+    font-family: 'Abhaya Libre';
+    font-size: 1.2em;
+    font-weight: 100;
+    color: white;
+
+   
+    background-color: #7081C0;
+
+    border-radius: 50px;
+    
+}
+
+.productSection > button > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* ==================== AboutUS ==================== */
+.aboutSection {
+    padding: 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutSection>h2 {
+    font-family: "Abhaya Libre";
+
+    font-size: 2.3rem;
+    padding: 3em;
+    box-sizing: border-box;
+}
 
 
 @media screen and (min-width:1024px) {

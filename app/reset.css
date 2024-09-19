@@ -45,15 +45,20 @@ table {
 
 /* 추가된 Link 태그 스타일 */
 a {
+    display: inline-block;
     text-decoration: none; /* 링크의 밑줄 제거 */
     color: inherit; /* 부모 요소의 색상 상속 */
+    cursor: pointer;
 }
 a:visited {
     color: inherit; /* 방문한 링크 색상도 부모 색상 상속 */
 }
-a:hover {
-    text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
-}
+
 a:active {
     color: #000; /* 클릭한 링크 색상 */
+}
+
+
+button{
+    background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer
 }

@@ -1,0 +1,22 @@
+/* .hitoryCardWrapper {
+    padding: 2% 4%;
+    display: flex;
+    height: 200vh;
+} */
+
+.imageWrapper {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.imageWrapper>div>img {
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+}

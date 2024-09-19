@@ -1,6 +1,6 @@
 .productCard {
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 2em;
 
     /* flex-grow: 33.333%; */
     flex: 0 0 calc(33.333% - 30px);
@@ -18,6 +18,8 @@
 
 .productCard>h2 {
     font-family: "Pret~endard";
+    padding: 1em 0;
+    font-size: 1.1em;
 }
 
 .productCard>a {

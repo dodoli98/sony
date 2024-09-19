@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <main>
             {/* banner */}
-            <section className={styles.banner}>
+            <section className={styles.banner} id="home">
 
                 <button className={styles.prev}>
                     <img src="/arrow.png" alt="Previous" />
@@ -27,7 +27,7 @@ export default function Home() {
             </section>
 
             {/* product */}
-            <section className={styles.productSection}>
+            <section className={styles.productSection} id="product">
                 <h2>NEW ARRIVALS</h2>
 
                 <div className={styles.productCardWrapper}>
@@ -40,9 +40,25 @@ export default function Home() {
                     ))}
                 </div>
 
-                <button>SHOP MORE</button>
+                <button><a>SHOP MORE</a></button>
             </section>
 
+
+            {/* photo interaction */}
+            <section >
+
+            </section>
+
+
+            {/* about */}
+            <section className={styles.aboutSection} id="about">
+                <h2>ABOUT US</h2>
+
+                <div className={styles.aboutWrapper}>
+
+                </div>
+
+            </section>
 
         </main>
     );

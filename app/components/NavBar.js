@@ -15,8 +15,8 @@ export default function NavBar() {
             <ul>
                 <li><Link href="#home">HOME</Link></li>
                 <li><Link href="#product">PRODUCT</Link></li>
-                <li><Link href="#history">HISTORY</Link></li>
-                <li><Link href="contact">CONTACT</Link></li>
+                <li><Link href="#about">ABOUT</Link></li>
+                <li><Link href="#contact">CONTACT</Link></li>
             </ul>
 
             <div>
